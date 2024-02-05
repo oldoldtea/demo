@@ -1,9 +1,10 @@
 #-*- encoding:utf-8 -*-#
-import time
-from wsgiref.simple_server import make_server
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
+import time
+from wsgiref.simple_server import make_server
 class ResponseTimingMiddleware(object):
     def __init__(self,app):
         self.app=app
