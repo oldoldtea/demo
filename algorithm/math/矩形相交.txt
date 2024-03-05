@@ -1,0 +1,33 @@
+给出左下和右上的坐标，判断矩形是否相交，并求出相交的区域
+思路：从矩形中点间的横纵坐标距离判断
+矩形A：左下坐标（A1，A2）右上坐标（A3，A4）
+矩形B：左下坐标（B1，B2）右上坐标（B3，B4）
+那么只要满足  
+abs（A1+A3-B1-B3）< A3-A1+B3-B1
+abs（A2+A4-B2-B4）< A4-A2+B4-B2
+即可证明两个矩阵有相交区域
+相交区域位置
+左下坐标（max（A1，B1），max（A2，B2））
+右上坐标（min（A3，B3），min（A4，B4））
+
+C++代码案例
+求矩形相交区域内可以放最大正方形的面积
+class Solution {
+    inline bool ok(vector<int>&t1,vector<int>&t2,vector<int>&t3,vector<int>&t4){//判断两个矩形能否相交
+        return abs(t1[0]+t2[0]-t3[0]-t4[0])<=t2[0]-t1[0]+t4[0]-t3[0]&&abs(t1[1]+t2[1]-t3[1]-t4[1])<=t2[1]-t1[1]+t4[1]-t3[1];
+    }
+public:
+    long long largestSquareArea(vector<vector<int>>& bottomLeft, vector<vector<int>>& topRight) {//左下 右上
+        int d=0;
+        int n=bottomLeft.size();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++){
+                if(ok(bottomLeft[i],topRight[i],bottomLeft[j],topRight[j])){
+                    d=max(min(min(topRight[i][0],topRight[j][0])-max(bottomLeft[i][0],bottomLeft[j][0]),//求相交区域的长
+                          min(topRight[i][1],topRight[j][1])-max(bottomLeft[i][1],bottomLeft[j][1])),d);//求相交区域的宽
+                }
+            }
+        }
+        return d*1ll*d; 
+    }
+};

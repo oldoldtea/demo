@@ -1,5 +1,5 @@
 #-*- encoding:utf-8 -*-#
-from asyncio.windows_events import NULL
+
 import datetime
 from imghdr import what
 from unittest import result
@@ -8,8 +8,8 @@ import re
 
 gdb=web.database(
     dbn='mysql',
-    host='192.168.0.115',
-    port='3306',
+    host='192.168.1.7',
+    port=3306,
     user='root',
     pw='123456',
     db='web'

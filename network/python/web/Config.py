@@ -1,7 +1,7 @@
 #-*- encoding:utf-8 -*-#
 import web
 import redis
-IP='192.168.27.78'
+IP='192.168.1.7'
 REDIS_PORT='6379'
 
 

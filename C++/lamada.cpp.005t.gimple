@@ -1,0 +1,69 @@
+main ()
+{
+  int D.39975;
+
+  {
+    int x;
+    int y;
+    struct __lambda0 fun;
+    typedef struct __lambda0 __lambda0;
+    int z;
+
+    try
+      {
+        x = 6;
+        y = 8;
+        fun.__x = &x;
+        fun.__y = &y;
+        z = main()::<lambda()>::operator() (&fun);
+      }
+    finally
+      {
+        x = {CLOBBER};
+        y = {CLOBBER};
+        fun = {CLOBBER};
+      }
+  }
+  D.39975 = 0;
+  return D.39975;
+}
+
+
+main()::<lambda()>::operator() (const struct __lambda0 * const __closure)
+{
+  int D.39977;
+  int & x [value-expr: __closure->__x];
+  int & y [value-expr: __closure->__y];
+
+  _1 = __closure->__x;
+  _2 = *_1;
+  _3 = __closure->__y;
+  _4 = *_3;
+  D.39977 = _2 + _4;
+  return D.39977;
+}
+
+
+__static_initialization_and_destruction_0 (int __initialize_p, int __priority)
+{
+  if (__initialize_p == 1) goto <D.39979>; else goto <D.39980>;
+  <D.39979>:
+  if (__priority == 65535) goto <D.39981>; else goto <D.39982>;
+  <D.39981>:
+  std::ios_base::Init::Init (&__ioinit);
+  __cxa_atexit (__dt_comp , &__ioinit, &__dso_handle);
+  goto <D.39983>;
+  <D.39982>:
+  <D.39983>:
+  goto <D.39984>;
+  <D.39980>:
+  <D.39984>:
+}
+
+
+_GLOBAL__sub_I_main ()
+{
+  __static_initialization_and_destruction_0 (1, 65535);
+}
+
+

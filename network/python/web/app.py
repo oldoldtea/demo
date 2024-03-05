@@ -1,4 +1,5 @@
 #-*- encoding:utf-8 -*-#
+import pwd
 import web
 import User_interface
 from datetime import datetime
@@ -6,11 +7,14 @@ import logging
 import logging.config
 import Config
 import Error
+import ErrorConfig
+import json
 
 
 url=(
     '/register','register',
     '/login','login',
+    '/','hello'
 )
 
 logging.config.fileConfig("o.conf")
@@ -22,7 +26,7 @@ def CatchError(func):
             return func(*args,**kw)
         except Exception as e:
             logger.exception(e)
-        return wrapper
+    return wrapper
 
 app=web.application(url,globals())
 application=app.wsgifunc()
@@ -38,19 +42,22 @@ class register:
         sex=req.sex
         idcard=req.idcard
         if not User_interface.IS_Phone_Number(phonenum):
-            return 
-
+            return Error.ErrResult(ErrorConfig.EC_REGISTER_PHONE_TYPE_ERROR,ErrorConfig.ER_REGISTER_PHONE_TYPE_ERROR)
+        if not User_interface.IS_available_pwd(password):
+            return Error.ErrResult(ErrorConfig.EC_LOGIN_PASSWORD_ERROR,ErrorConfig.ER_REGISTER_PASSWORD_TYPE_ERROR)
+        if User_interface.regist(phonenum,password,nike,sex,idcard):
+            return Error.ErrResult(200,'ok')
+        return Error.ErrResult(300,"其它错误")
 
 class login:
-    @CatchError
+    # @CatchError
     def POST(self):
         req=web.input(userid='',password='')
         userid=req.userid
         password=req.password
-        
+        if User_interface.login(userid,password):
+            return Error.ErrResult(200,'ok')
+        return Error.ErrResult(300,"其它错误")
 class hello:
-    def GET(self,name):
-        if not name:
-            name='world'
-        return 'hh '+name
-
+    def POST(self):
+        return "helo"

@@ -2535,3 +2535,2773 @@ Traceback (most recent call last):
 TypeError: an integer is required
 unable to load app 0 (mountpoint='') (callable not found or import error)
 *** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 11:34:04 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 11:35:47 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37053 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55bef5ba0c30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 99606)
+spawned uWSGI worker 1 (pid: 99607, cores: 1)
+spawned uWSGI http 1 (pid: 99608)
+failed to open python file 1.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 11:36:25 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.1.7:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 11:39:05 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8008 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42015 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55ae99a7bc30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 99884)
+spawned uWSGI worker 1 (pid: 99885, cores: 1)
+spawned uWSGI http 1 (pid: 99886)
+Traceback (most recent call last):
+  File "app.py", line 4, in <module>
+    import User_interface
+  File "./User_interface.py", line 2, in <module>
+    from asyncio.windows_events import NULL
+ImportError: No module named asyncio.windows_events
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 11:40:35 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34619 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x5615e0042c30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 100009)
+spawned uWSGI worker 1 (pid: 100011, cores: 1)
+spawned uWSGI http 1 (pid: 100012)
+Traceback (most recent call last):
+  File "app.py", line 4, in <module>
+    import User_interface
+  File "./User_interface.py", line 15, in <module>
+    db='web'
+  File "/usr/local/lib/python2.7/dist-packages/web/db.py", line 1489, in database
+    return _databases[dbn](**params)
+  File "/usr/local/lib/python2.7/dist-packages/web/db.py", line 1253, in __init__
+    db = import_driver(mysql_drivers, preferred=keywords.pop("driver", None))
+  File "/usr/local/lib/python2.7/dist-packages/web/db.py", line 1299, in import_driver
+    raise ImportError("Unable to import " + " or ".join(drivers))
+ImportError: Unable to import MySQLdb or pymysql or mysql.connector
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 11:49:02 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41677 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55cb664c7c30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 100996)
+spawned uWSGI worker 1 (pid: 100998, cores: 1)
+spawned uWSGI http 1 (pid: 100999)
+Traceback (most recent call last):
+  File "app.py", line 4, in <module>
+    import User_interface
+  File "./User_interface.py", line 15, in <module>
+    db='web'
+  File "/usr/local/lib/python2.7/dist-packages/web/db.py", line 1489, in database
+    return _databases[dbn](**params)
+  File "/usr/local/lib/python2.7/dist-packages/web/db.py", line 1253, in __init__
+    db = import_driver(mysql_drivers, preferred=keywords.pop("driver", None))
+  File "/usr/local/lib/python2.7/dist-packages/web/db.py", line 1299, in import_driver
+    raise ImportError("Unable to import " + " or ".join(drivers))
+ImportError: Unable to import MySQLdb or pymysql or mysql.connector
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 13:42:44 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.1.7:8010).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 13:44:26 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38837 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55f735d5fc30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 137826)
+spawned uWSGI worker 1 (pid: 137843, cores: 1)
+spawned uWSGI http 1 (pid: 137844)
+Traceback (most recent call last):
+  File "app.py", line 8, in <module>
+    import Config
+  File "./Config.py", line 3, in <module>
+    import redis
+ImportError: No module named redis
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 13:49:31 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.1.7:8010).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 13:49:47 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39557 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x561507b15c30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 138844)
+spawned uWSGI worker 1 (pid: 138846, cores: 1)
+spawned uWSGI http 1 (pid: 138847)
+Traceback (most recent call last):
+  File "app.py", line 8, in <module>
+    import Config
+  File "./Config.py", line 3, in <module>
+    import redis
+ImportError: No module named redis
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 13:56:36 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42565 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55b4e5c1fc30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139346)
+spawned uWSGI worker 1 (pid: 139348, cores: 1)
+spawned uWSGI http 1 (pid: 139349)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b4e5c1fc30 pid: 139348 (default app)
+[pid: 139348|app: 0|req: 1/1] 192.168.1.4 () {34 vars in 581 bytes} [Fri Feb 23 14:18:36 2024] GET /?pthonenum=15838119440&password=123456&nike=haha&sex=1&idcard=10086%0A => generated 9 bytes in 201 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+[pid: 139348|app: 0|req: 2/2] 192.168.1.4 () {34 vars in 581 bytes} [Fri Feb 23 14:18:45 2024] GET /?pthonenum=15838119440&password=123456&nike=haha&sex=1&idcard=10086%0A => generated 9 bytes in 1 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+[pid: 139348|app: 0|req: 3/3] 192.168.1.4 () {36 vars in 601 bytes} [Fri Feb 23 14:19:04 2024] POST /?pthonenum=15838119440&password=123456&nike=haha&sex=1&idcard=10086%0A => generated 9 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+[pid: 139348|app: 0|req: 4/4] 192.168.1.4 () {36 vars in 854 bytes} [Fri Feb 23 14:21:35 2024] GET /?pthonenum=15838119440&password=123456&nike=haha&sex=1&idcard=10086 => generated 9 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+[pid: 139348|app: 0|req: 5/5] 192.168.1.4 () {36 vars in 745 bytes} [Fri Feb 23 14:21:35 2024] GET /favicon.ico => generated 9 bytes in 59 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+[pid: 139348|app: 0|req: 6/6] 192.168.1.4 () {36 vars in 722 bytes} [Fri Feb 23 14:21:46 2024] GET / => generated 9 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+[pid: 139348|app: 0|req: 7/7] 192.168.1.4 () {36 vars in 619 bytes} [Fri Feb 23 14:22:14 2024] POST /register/?pthonenum=15838119440&password=123456&nike=haha&sex=1&idcard=10086%0A => generated 9 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 14:24:58 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40125 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55b636ff7c30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139633)
+spawned uWSGI worker 1 (pid: 139635, cores: 1)
+spawned uWSGI http 1 (pid: 139636)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b636ff7c30 pid: 139635 (default app)
+[pid: 139635|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 619 bytes} [Fri Feb 23 14:25:01 2024] POST /register/?pthonenum=15838119440&password=123456&nike=haha&sex=1&idcard=10086%0A => generated 9 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+[pid: 139635|app: 0|req: 2/2] 192.168.1.4 () {36 vars in 466 bytes} [Fri Feb 23 14:25:09 2024] POST /%0A => generated 9 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 66 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139635|app: 0|req: 3/3] 192.168.1.4 () {36 vars in 617 bytes} [Fri Feb 23 14:29:46 2024] POST /register?pthonenum=15838119440&password=123456&nike=haha&sex=1&idcard=10086%0A => generated 0 bytes in 236 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 139635|app: 0|req: 4/4] 192.168.1.4 () {38 vars in 753 bytes} [Fri Feb 23 14:31:16 2024] GET / => generated 18 bytes in 2 msecs (HTTP/1.1 405) 2 headers in 73 bytes (2 switches on core 0)
+[pid: 139635|app: 0|req: 5/5] 192.168.1.4 () {38 vars in 753 bytes} [Fri Feb 23 14:31:20 2024] GET / => generated 18 bytes in 1 msecs (HTTP/1.1 405) 2 headers in 73 bytes (2 switches on core 0)
+[pid: 139635|app: 0|req: 6/6] 192.168.1.4 () {38 vars in 753 bytes} [Fri Feb 23 14:31:25 2024] GET / => generated 18 bytes in 2 msecs (HTTP/1.1 405) 2 headers in 73 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139635|app: 0|req: 7/7] 192.168.1.4 () {36 vars in 617 bytes} [Fri Feb 23 14:35:55 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz&sex=1&idcard=1000 => generated 0 bytes in 39 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139635|app: 0|req: 8/8] 192.168.1.4 () {36 vars in 617 bytes} [Fri Feb 23 14:36:22 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz&sex=1&idcard=1000 => generated 0 bytes in 38 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 14:36:31 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41193 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x559157e3ac30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139785)
+spawned uWSGI worker 1 (pid: 139787, cores: 1)
+spawned uWSGI http 1 (pid: 139788)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559157e3ac30 pid: 139787 (default app)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 617 bytes} [Fri Feb 23 14:36:35 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz&sex=1&idcard=1000 => generated 0 bytes in 45 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 2/2] 192.168.1.4 () {36 vars in 617 bytes} [Fri Feb 23 14:38:09 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz&sex=1&idcard=1000 => generated 0 bytes in 33 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 3/3] 192.168.1.4 () {36 vars in 617 bytes} [Fri Feb 23 14:38:15 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz&sex=1&idcard=1000 => generated 0 bytes in 34 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 139787|app: 0|req: 4/4] 192.168.1.4 () {36 vars in 877 bytes} [Fri Feb 23 14:38:33 2024] GET /register?phonenum=15838119440&password=lizhe19070294&nike=lz&sex=1&idcard=1000 => generated 18 bytes in 2 msecs (HTTP/1.1 405) 2 headers in 73 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 5/5] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 14:40:01 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 0 bytes in 34 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 139787|app: 0|req: 6/6] 192.168.1.4 () {38 vars in 753 bytes} [Fri Feb 23 14:42:09 2024] GET / => generated 18 bytes in 2 msecs (HTTP/1.1 405) 2 headers in 73 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 7/7] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 14:47:20 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 0 bytes in 35 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 8/8] 192.168.1.4 () {36 vars in 601 bytes} [Fri Feb 23 14:49:28 2024] POST /register?phonenum=15838119440&password=lizhe19070294&sex=1&idcard=1000 => generated 0 bytes in 30 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 9/9] 192.168.1.4 () {36 vars in 609 bytes} [Fri Feb 23 14:52:21 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&idcard=1000 => generated 0 bytes in 49 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 139787|app: 0|req: 10/10] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 14:58:50 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 0 bytes in 33 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:06:38 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+writing pidfile to uwsgi.pidfile
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35521 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x5654efd56c30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 141993, cores: 1)
+spawned uWSGI http 1 (pid: 141994)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5654efd56c30 pid: 141993 (default app)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 141993|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 619 bytes} [Fri Feb 23 15:06:59 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 0 bytes in 31 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 141993|app: 0|req: 2/2] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:10:00 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 0 bytes in 37 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 141994)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 141993)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:35521)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:13:19 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46125 (port auto-assigned) fd 4
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55e6cdc84aa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142110, cores: 1)
+spawned uWSGI http 1 (pid: 142111)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e6cdc84aa0 pid: 142110 (default app)
+[pid: 142110|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:13:29 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 11 bytes in 3 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 142111)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 142110)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:46125)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:13:45 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42303 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55940aba1aa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142161, cores: 1)
+spawned uWSGI http 1 (pid: 142162)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55940aba1aa0 pid: 142161 (default app)
+[pid: 142161|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:13:47 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 11 bytes in 5 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 142162)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 142161)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:42303)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:13:57 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40393 (port auto-assigned) fd 4
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55a4155f8aa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142204, cores: 1)
+spawned uWSGI http 1 (pid: 142205)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55a4155f8aa0 pid: 142204 (default app)
+[pid: 142204|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:13:58 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 11 bytes in 2 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 142205)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 142204)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:40393)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:14:06 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:39617 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x5585ec58daa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142246, cores: 1)
+spawned uWSGI http 1 (pid: 142247)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5585ec58daa0 pid: 142246 (default app)
+[pid: 142246|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:14:08 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 63 bytes in 3 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 142247)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 142246)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:39617)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:14:28 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:38109 (port auto-assigned) fd 4
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x5599b8933aa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142276, cores: 1)
+spawned uWSGI http 1 (pid: 142277)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5599b8933aa0 pid: 142276 (default app)
+[pid: 142276|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:14:30 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 63 bytes in 5 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 142277)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 142276)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:38109)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:14:44 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:43505 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55deda9caaa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142326, cores: 1)
+spawned uWSGI http 1 (pid: 142327)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55deda9caaa0 pid: 142326 (default app)
+[pid: 142326|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:14:45 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 63 bytes in 2 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 142327)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 142326)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:43505)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:15:01 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42623 (port auto-assigned) fd 4
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55bda38f2aa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142374, cores: 1)
+spawned uWSGI http 1 (pid: 142375)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bda38f2aa0 pid: 142374 (default app)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 142374|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:15:03 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 0 bytes in 38 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 290, in process
+    return self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 281, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 531, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 509, in handle_class
+    return tocall(*args)
+TypeError: 'NoneType' object is not callable
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 717, in processor
+    result = handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 700, in processor
+    return handler()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 288, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 329, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 300, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 297, in process
+    raise self.internalerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 588, in internalerror
+    return debugerror()
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 337, in debugerror
+    return web._InternalError(djangoerror())
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.py", line 315, in djangoerror
+    djangoerror_r = Template(djangoerror_t, filename=__file__, filter=websafe)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 943, in __init__
+    code = self.compile_template(text, filename)
+  File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1020, in compile_template
+    compiled_code = compile(code, filename, "exec")
+  File "/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc", line 8
+    def with (exception_type, exception_value, frames)
+           ^
+SyntaxError: invalid syntax
+
+Template traceback:
+    File '/usr/local/lib/python2.7/dist-packages/web/debugerror.pyc', line 8
+        None
+[pid: 142374|app: 0|req: 2/2] 192.168.1.4 () {36 vars in 621 bytes} [Fri Feb 23 15:15:25 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 0 bytes in 56 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 142375)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 142374)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/lz/demo/network/python/web
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:42623)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Feb 23 15:15:29 2024] ***
+compiled with version: 9.4.0 on 22 February 2024 10:46:16
+os: Linux-5.15.0-94-generic #104~20.04.1-Ubuntu SMP Tue Jan 16 13:34:09 UTC 2024
+nodename: lz-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/lz/demo/network/python/web
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lz/demo/network/python/web
+your processes number limit is 31293
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.1.7:8010 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:36549 (port auto-assigned) fd 3
+Python version: 2.7.18 (default, Jul  1 2022, 12:27:04)  [GCC 9.4.0]
+Python main interpreter initialized at 0x558379058aa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 141991)
+spawned uWSGI worker 1 (pid: 142428, cores: 1)
+spawned uWSGI http 1 (pid: 142429)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558379058aa0 pid: 142428 (default app)
+[pid: 142428|app: 0|req: 1/1] 192.168.1.4 () {36 vars in 620 bytes} [Fri Feb 23 15:15:31 2024] POST /register?phonenum=15838119440&password=lizhe19070294&nike=lz00&sex=1&idcard=1000 => generated 63 bytes in 4 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
