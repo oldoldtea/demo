@@ -1,19 +1,14 @@
 #-*- encoding:utf-8 -*-#
 
+from asyncio.windows_events import NULL
 import datetime
 from imghdr import what
 from unittest import result
 import web
 import re
+import Config
 
-gdb=web.database(
-    dbn='mysql',
-    host='192.168.1.7',
-    port=3306,
-    user='root',
-    pw='123456',
-    db='web'
-)
+gdb=Config.gdb
 
 def IS_exist(userid):
     return gdb.select('user',where='userid=$userid',vars=dict(userid=userid),what='count(*) as num')[0].num>0

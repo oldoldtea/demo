@@ -1,11 +1,13 @@
 #include<iostream>
 #include<vector>
 #include<unordered_set>
+#include<queue>
 using namespace std;
 
 
 //模板，非递归版的广度优先遍历
 //案例1，开锁的最快时间,题目链接：https://leetcode.cn/problems/open-the-lock/
+//特点利用队列可以控制遍历轮次，还可以控制节点加入，控制节点的加入时需要考虑条件的设置
 
 void func(vector<string>&dead,string target){
     unordered_set<string>st(deadends.begin(),deadends.end());
