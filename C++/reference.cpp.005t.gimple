@@ -1,0 +1,25 @@
+fun (long long int * p)
+{
+  *p = 10;
+}
+
+
+fun (long long int & p)
+{
+  *p = 10;
+}
+
+
+main ()
+{
+  int D.2312;
+
+  fun (&a);
+  fun (&a);
+  D.2312 = 0;
+  return D.2312;
+  D.2312 = 0;
+  return D.2312;
+}
+
+
