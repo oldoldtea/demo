@@ -36,5 +36,47 @@ void func(vector<string>&dead,string target){
     return -1;
 }
 
+//广度优先求最短路径问题
+//不加权，有障碍物
+int func1(vector<vector<int>>&map){
+    int n=map.size(),m=map[0].size(),res=0;
+    vector<pair<int,int>>d{{0,1},{0,-1},{1,0},{-1,0}};//定义方向
+    unordered_set<int>set;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(!map[i][j]) set.insert((i<<10)+j);
+        }
+    }
+    queue<pair<int,int>>que;
+    que.push({0,0});
+    set.insert(0);
+    while (!que.empty())
+    {
+        int size=que.size();res++;
+        while (size--)
+        {
+            auto[r,c]=que.front();
+            que.pop();
+            for(auto&it:d){
+                int R=r+it.first;
+                int C=c+it.second;
+                if(R>=0&&C>=0&&R<n&&C<m&&!set.count((R<<10)+C)){
+                    if(R==n-1&&C==m-1) return res;
+                    que.push({R,C});
+                    set.insert((R<<10)+C);
+                }
+            }
+        }
+    }
+    return -1;
+}
+//不加权，有障碍物，可以清除k个障碍物
+
+
+//加权无障碍
+
+//加权有障碍
+
+
 
 int main(){}

@@ -43,7 +43,8 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "unordered_set": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "stdio.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "python.analysis.autoImportCompletions": true,
